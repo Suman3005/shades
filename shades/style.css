@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: karla,sans-serif; 
+}
+
+a{
+    text-decoration: none;
+}
+.header
+{
+    padding-top: 30px 30px 0px;
+    height: 564px;
+    width: 100%;
+}
+.brand
+{
+    color:#1290A4;
+    font-weight: 700;
+    font-size: x-large;
+}
+.nav-link
+{    text-decoration: none;
+    padding: 30px;
+    color:#1F1F1F ;
+    font-size: 16PX;
+    height: 46px;
+    width:93.31px ;   
+}
+.header-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin: 20px;
+}
+#image1
+{
+    background-image: url("images/_asset\ 1-p-130x130q80.png");
+    height: 387px;
+    max-width: 562px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.item1
+{
+    height: 150px;
+    width:620px;
+    color: #1F1F1F;
+    margin: 0px 0px 20px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.item2
+{
+    height: 108px;
+    width: 440px;
+    color: #222F3F;
+    margin: 0px 0px 40px;
+    font-size: 21px;
+}
+#email
+{
+    height: 56px;
+    width: 250px;
+    font-size: 15px;
+ background-color: #1290A412;
+ margin: 0px 10px 0px 10px ;
+ padding: 28px 12px 28px 20px ;
+ border-radius: 3px;
+ border: none;
+}
+.get-started
+{
+    height: 56px;
+    width: 180px;
+    font-size: 20px;
+    background-color: #1290A4;
+    padding: 9px 15px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+}
+.item4
+{
+    height: 36px;
+    width: 439px;
+    color: #878B90;
+    margin: 10px 0px 20px;
+    font-family: karla,Arial, sans-serif;
+}
+
+.benefit-section
+{    height: 570px;
+    background-color:#eef4f5 ;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.benefit-section1
+{    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 34px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#benefit-main-heading
+{    background-color:#eef4f5 ;
+    color: #333333;
+    font-size: 48px;
+    margin: 0px 0px 60px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.benefit-card
+{
+    background-color: #FFFFFF;
+    height: 360px;
+    padding: 35px;
+}
+.feature-icon
+{
+    margin: 0px 0px 40px;
+    background-color: #F46F7C1A;
+  
+   height: 80px;
+   width: 80px;
+}
+.benefit-title
+{
+ font-size: 28px;
+ margin: 0px 0px 20px;
+ color: #1F1F1F;
+ font-weight: bold;
+}
+.benefit-para
+{
+    color: #666666;
+    font-size: 17px;
+    margin: 0px 0px 30px;
+    line-height: 25px;
+}
+.learn-more
+{
+    color: #1290A4;
+    font-size: 18px;
+    font-weight: bold;
+}
+.learn-more-effect:hover
+{
+  transform: translate(10px);
+}
+.content-section
+{
+    background-color: #F8F8F8;   
+}
+.content-section1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding-left: 120px;
+    padding-right: 80px;
+    height: 1500px;
+}
+.content-layout
+{
+    height: 440px;
+    width: 470px;
+}
+.content-image
+{
+    height: 440px;
+    width: 470px;
+    padding-top: 20px;
+}
+#shedule-demo
+{    
+    color:#FFFFFF;
+    background-color:#F46F7C ;
+    padding: 13px 22px;
+    font-size: 17px;
+    
+}
+.benefit-content-title
+{
+ 
+ font-size: 38px;
+ margin: 0px 0px 25px;
+ color:#333333;
+ font-weight: bold;
+ padding-top: 50px;
+ 
+}
+.benefit-content-list
+{
+    display: inline;
+    color: #333333;
+    font-size: 19px;
+    line-height: 40px;
+    
+}
+.benefit-content-para
+{    width: 100%;
+    color: #333333;
+    font-size: 19px;
+    margin: 0px 0px 25px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+.pricing-section
+{
+    height: 1000px;
+    width: 100%;
+    background-color: #30393B;
+    color: white;
+}
+#pricing-section-head
+{
+padding-top: 20px;
+text-align: center;
+font-size: 48px;
+margin-bottom:20px ;
+}
+#pricing-section-para
+{
+margin-bottom: 50px;
+text-align: center;
+font-size: 21px;
+color: #878B90;
+}
+.pricing-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.pricing-content
+{
+ padding: 50px 50px 30px;
+ background-color: #FFFFFF;
+ height: 500px;
+  
+}
+
+.pricing-label
+{
+    color: #878B90;
+    font-size: 13px;
+    margin: 0px 0px 35px;
+}
+.currency
+{
+    color: #1F1F1F;
+    font-size: 30px;   
+}
+.pricing-text
+{
+    color: #1F1F1F;
+    margin: 0px 0px 30px;
+    font-size: 14px;
+}
+.pricing-list
+{
+    color: #1F1F1F;
+    font: 17px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.pricing-card-info
+{
+    color: #666666;
+    font-size: 14px;
+    margin-top:50px;
+}
+
+#pricing-section-link
+{
+    text-align: center;
+    color:#878B90 ;
+    font-size: 17px;
+    display: inline;
+    width: 100%;
+}
+
+
+
+
+
+
+.item11
+{
+    height: 60px;
+    width:100%;
+    color:#000000;
+    margin: 20px 0px 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+.item22
+{
+    height: 108px;
+    width:100%;
+    color: #666666;
+    margin-bottom: 10px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.item44
+{
+    height: 36px;
+    width: 100%;
+    color: #666666;
+    margin: 15px 0px 20px;
+   text-align: center;
+}
+.footer-email
+{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.newsletter-wrapper
+{
+}
+.free-trial:hover
+{
+background-color: blue;
+
+}
+
+
+
+.footer-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-top: 1px solid #e5e5e5;
+    background-color:#F8F8F8 ;
+}
+.footer {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #F8F8F8; 
+}
+.paragraph {
+    max-width: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer-link
+{
+    display: block;
+    color: black;
+    font-weight: medium;
+    padding-bottom: 18px;
+}
+.footer-col-23 {
+    width: 15%;
+    padding-right: 20px;
+}
+.footer-col-1{
+    width: 400px;
+}
+.footer-col-4{
+    width: 330px;
+}
+a{
+    text-decoration: none;
+   
+}
+h4 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: #666;
+    font-size: 14px;
+    line-height: 18px;
+}
